@@ -1,12 +1,19 @@
 import React from 'react'
+import Hero from './sections/Hero'
+import ShowCase from './sections/ShowCase'
+import NavBar from './components/NavBar'
+import FeatureCards from './sections/FeatureCards'
+import Experience from './sections/Experience'
 
 const App = () => {
   return (
-    <main>
-        <div>
-            <h1 className='underline'>Bem vindo ao meu portifólio!</h1>
-        </div>
-    </main>
+    <>
+      <NavBar />
+      <Hero />
+      <ShowCase />
+      <FeatureCards />
+      <Experience />
+    </>
   )
 }
 

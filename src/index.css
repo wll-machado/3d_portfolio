@@ -19,7 +19,7 @@ section {
   width: 100dvw;
 }
 
-:root {
+@theme {
   --font-sans: "Mona Sans", sans-serif;
   --color-white-50: #d9ecff;
   --color-black-50: #1c1c21;
