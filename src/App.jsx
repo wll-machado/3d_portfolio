@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Hero from './sections/Hero'
 import ShowCase from './sections/ShowCase'
 import NavBar from './components/NavBar'
