@@ -67,21 +67,21 @@ const Experience = () => {
                         <div key={card.title} className='exp-card-wrapper'>
                             <div className="xl:w-2/6">
                                 <GlowCard card={card} >
-                                    <div>
-                                        <img src={card.imgPath} alt={card.title} />
+                                    <div className="flex justify-center items-center">
+                                        <img src={card.imgPath} alt={card.title} className="w-[205px] h-[80px] rounded-[15px]"/>
                                     </div>
                                 </GlowCard>
                             </div>
 
                             <div className='xl:w-4/6'>
                             <div className="flex items-start">
-                                <div className="timeline-wrapper">
+                                <div className="timeline-wrapper  md:ml-3">
                                     <div className='timeline'/>
                                     <div className='gradient-line w-1 h-full'/>
                                 </div>
 
                                 <div className='expText flex xl:gap-20 md:gap-10 gap-5 relative z-20'>
-                                    <div className="timeline-logo"><img src={card.logoPath} alt={card.title} /></div>
+                                    <div className="timeline-logo p-2"><img src={card.logoPath} alt={card.title} className="rounded-full"/></div>
 
                                     <div>
                                         <h1 className='font-semibold text-3xl'>{card.title}</h1>

@@ -7,7 +7,7 @@ import { useGSAP } from '@gsap/react';
 gsap.registerPlugin(ScrollTrigger);
 
 
-const ShowCase = () => {
+const MoreCase = () => {
 
     const sectionRef = useRef(null);
     const project1Ref = useRef(null);
@@ -46,7 +46,7 @@ const ShowCase = () => {
     }, [])
 
   return (
-    <section ref={sectionRef } id='work' className='app-showcase'>
+    <section ref={sectionRef } id='work' className='app-showcase mt-0'>
       <div className="w-full">
         <div className="showcaselayout">
             {/* //left */}
@@ -83,4 +83,4 @@ const ShowCase = () => {
   )
 }
 
-export default ShowCase;
+export default MoreCase;

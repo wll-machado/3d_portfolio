@@ -1,27 +1,27 @@
 export const words = [
-  { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
+  { text: "Ideias", imgPath: "/images/ideas.svg" },
+  { text: "Conceitos", imgPath: "/images/concepts.svg" },
   { text: "Designs", imgPath: "/images/designs.svg" },
-  { text: "Code", imgPath: "/images/code.svg" },
-  { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
+  { text: "Código", imgPath: "/images/code.svg" },
+  { text: "Ideias", imgPath: "/images/ideas.svg" },
+  { text: "Conceitos", imgPath: "/images/concepts.svg" },
   { text: "Designs", imgPath: "/images/designs.svg" },
-  { text: "Code", imgPath: "/images/code.svg" },
+  { text: "Código", imgPath: "/images/code.svg" },
 ];
 
 export const counterItems = [
   { value: 1, suffix: "+", label: "Anos de Experiência" },  
   { value: 18, suffix: "+", label: "Projetos Completos" },
-  { value: 3, suffix: "+", label: "Linguagens de Programação utilizadas" },
+  { value: 4, suffix: "+", label: "Linguagens de Programação utilizadas" },
 ];
 
 export const navLinks = [
   {
-    name: "Work",
+    name: "Projetos",
     link: "#work",
   },
   {
-    name: "Experience",
+    name: "Experiência",
     link: "#experience",
   },
   {
@@ -34,46 +34,50 @@ export const navLinks = [
 export const abilities = [
   {
     imgPath: "/images/seo.png",
-    title: "Quality Focus",
-    desc: "Delivering high-quality results while maintaining attention to every detail.",
+    title: "Aprendizado Contínuo",
+    desc: "Sempre buscando por novos conhecimentos, participando de cursos, treinamentos e projetos que permitam aprimorar minhas habilidades técnicas.",
   },
   {
     imgPath: "/images/chat.png",
-    title: "Reliable Communication",
-    desc: "Keeping you updated at every step to ensure transparency and clarity.",
+    title: "Comunicativo e Trabalho em Equipe",
+    desc: "Acredito que a comunicação clara e o trabalho colaborativo são essenciais para o sucesso de qualquer projeto.",
+    
   },
   {
     imgPath: "/images/time.png",
-    title: "On-Time Delivery",
-    desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+    title: "Gestão de tempo",
+    desc: "Habilidade em priorizar tarefas e gerenciar prazos, garantindo a entrega de projetos dentro do cronograma.",
   },
 ];
 
 export const expCards = [
   {
     review:
-      "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+      "Fullstack Developer – Rocketseat. Buscando me aprimorar cada vez mais, estou cursando a formação Fullstack Developer na Rocketseat, onde aprendo sobre as tecnologias mais atuais do mercado, como React, Node.js, GraphQL e muito mais. Estou animado para aplicar esses conhecimentos em projetos futuros.",
     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+    title: "Frontend Developer - Firjan",
+    date: "Julho 2022 - Agosto 2023",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Desenvolvimento de sites para a empresa e clientes.",
+      "Implementação de interfaces dinâmicas e responsivas.",
+      "Componentização e reutilização de código, utilizando Angular e Typescript.",
+      "Colaboração com designers para garantir a consistência visual.",
+      "Participação em reuniões de planejamento e revisão de código.",
     ],
   },
   {
     review:
-      "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+      "Engenheiro Front-end - EBAC formação completa pela EBAC, onde adquiri conhecimentos avançados em desenvolvimento web, incluindo HTML, CSS, JavaScript e frameworks modernos, com foco em React. Durante o curso, trabalhei em projetos práticos que me permitiram aplicar esses conhecimentos em cenários reais.",
     imgPath: "/images/exp2.png",
     logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    title: "Infraestrutura/Suporte TI - Almar Print",
+    date: "Junho 2016 - Decembro 2020",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Manutenção e configuração de servidores e Redes.",
+      "Manutenção de computadores, impressoras e smartphones.",
+      "Atendimento e suporte ao cliente em vendas.",
+      "Emissão e conferencia de Nota Fiscal."
     ],
   },
   {
@@ -88,5 +92,84 @@ export const expCards = [
       "Improved app performance and user experience through code optimization and testing.",
       "Coordinated with the product team to implement features based on feedback.",
     ],
+  },
+];
+
+export const techStackImgs = [
+  {
+    name: "React Developer",
+    imgPath: "/images/logos/react.png",
+  },
+  {
+    name: "Python Developer",
+    imgPath: "/images/logos/python.svg",
+  },
+  {
+    name: "Backend Developer",
+    imgPath: "/images/logos/node.png",
+  },
+  {
+    name: "Interactive Developer",
+    imgPath: "/images/logos/three.png",
+  },
+  {
+    name: "Project Manager",
+    imgPath: "/images/logos/git.svg",
+  },
+];
+
+export const techStackIcons = [
+  {
+    name: "React Developer",
+    modelPath: "/models/react_logo-transformed.glb",
+    scale: 1,
+    rotation: [0, 0, 0],
+  },
+  {
+    name: "Python Developer",
+    modelPath: "/models/python-transformed.glb",
+    scale: 0.8,
+    rotation: [0, 0, 0],
+  },
+  {
+    name: "Backend Developer",
+    modelPath: "/models/node-transformed.glb",
+    scale: 5,
+    rotation: [0, -Math.PI / 2, 0],
+  },
+  {
+    name: "Interactive Developer",
+    modelPath: "/models/three.js-transformed.glb",
+    scale: 0.05,
+    rotation: [0, 0, 0],
+  },
+  {
+    name: "Project Manager",
+    modelPath: "/models/git-svg-transformed.glb",
+    scale: 0.05,
+    rotation: [0, -Math.PI / 4, 0],
+  },
+];
+
+export const socialImgs = [
+  {
+    name: "insta",
+    url: "https://www.instagram.com/wll.machado/",
+    imgPath: "/images/insta.png",
+  },
+  {
+    name: "gh",
+    url: "https://github.com/wll-machado",
+    imgPath: "/images/gh.png",
+  },
+  {
+    name: "x",
+    url: "https://www.x.com/",
+    imgPath: "/images/x.png",
+  },
+  {
+    name: "linkedin",
+    url: "https://www.linkedin.com/in/wellington-m-l/",
+    imgPath: "/images/linkedin.png",
   },
 ];

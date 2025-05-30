@@ -28,7 +28,7 @@ const Hero = () => {
           <div className="flex flex-col gap-7">
             <div className="hero-text">
               <h1>
-                Shaping
+                Tranformando <br />
                 <span className="slide">
                   <span className="wrapper">
                     {words.map((word, index) => (
@@ -46,18 +46,18 @@ const Hero = () => {
                     ))}
                   </span>
                 </span>
-              </h1>
-              <h1>into Real Projects</h1>
-              <h1>that Deliver Results</h1>
+              </h1> <br />
+              <h1>em Projetos Reais</h1>
+              
             </div>
 
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Hi, I’m Wellington, a developer based in Brazil with a passion for
-              code.
+              E ai!! Eu sou o Wellington, desenvolvedor Front-end e estudante de Engenharia de Software.
+              Sou apaixonado por tecnologia, gosto de aprender e estou sempre em busca de novos desafios para evoluir como profissional e entregar soluções que façam a diferença.
             </p>
 
             <Button
-              text="See My Work"
+              text="Projetos"
               className="md:w-80 md:h-16 w-60 h-12"
               id="counter"
             />
