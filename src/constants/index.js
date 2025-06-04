@@ -160,11 +160,11 @@ export const socialImgs = [
     url: "https://github.com/wll-machado",
     imgPath: "/images/gh.png",
   },
-  {
-    name: "x",
-    url: "https://www.x.com/",
-    imgPath: "/images/x.png",
-  },
+  // {
+  //   name: "x",
+  //   url: "https://www.x.com/",
+  //   imgPath: "/images/x.png",
+  // },
   {
     name: "linkedin",
     url: "https://www.linkedin.com/in/wellington-m-l/",
