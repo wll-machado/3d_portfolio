@@ -52,10 +52,12 @@ const MoreCase = () => {
             {/* //left */}
             <div className="first-project-wrapper" ref={project1Ref}>
                 <div className="image-wrapper">
-                    <img src="/images/project1.png" alt="Ryde" />
+                    <img src="/images/project4.png" alt="Ryde" />
                 </div>
                 <div className="text-content">
-                    <h2>Delivery de Café - plataforma de e-commerce</h2>
+                    <h2>Efood - plataforma de e-commerce
+                        <a className='text-blue-800' href="https://e-food-silk.vercel.app" target="_blank"> acesse</a>
+                    </h2>
 
                     <p className="text-white-50 md:text-xl">
                         Aplicação construida com React e Styles Component
@@ -67,13 +69,13 @@ const MoreCase = () => {
 
             <div className="project-list-wrapper overflow-hidden">
                 <div className="project" ref={project2Ref}>
-                    <div className='image-wrapper bg-[#ffefdb]'><img src="/images/project2.png" alt="hospital" /></div>
-                    <h2>Plataforma de rede de saude - <a className='text-blue-800' href="https://hospital-iota-fawn.vercel.app" target="_blank">acesse</a> </h2>
+                    <div className='image-wrapper bg-[#ffefdb]'><img src="/images/project5.png" alt="hospital" /></div>
+                    <h2>EPlay - Game store  -  <a className='text-blue-800' href="https://eplay-react-two.vercel.app" target="_blank"> acesse</a> </h2>
                 </div>
                 
                 <div className="project" ref={project3Ref}>
-                    <div className='image-wrapper bg-[#ffe7eb]'><img src="/images/project3.png" alt="portfolio" /></div>
-                    <h2>Portfolio Fotografia - <a className='text-blue-800' href="https://photographer-brown.vercel.app" target="_blank">acesse</a></h2>
+                    <div className='image-wrapper bg-[#ffe7eb]'><img src="/images/gh.png" alt="portfolio" /></div>
+                    <h2>Mais projetos - github <a className='text-blue-800' href="https://github.com/wll-machado" target="_blank">acesse</a></h2>
                 </div>
             </div>
             

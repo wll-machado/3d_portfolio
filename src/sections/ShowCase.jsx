@@ -55,7 +55,9 @@ const ShowCase = () => {
                     <img src="/images/project1.png" alt="Ryde" />
                 </div>
                 <div className="text-content">
-                    <h2>Delivery de Café - plataforma de e-commerce</h2>
+                    <h2>Delivery de Café - plataforma de e-commerce
+                        <a className='text-blue-800' href="https://coffee-delivery-iota-eight.vercel.app" target="_blank"> acesse</a>
+                    </h2>
 
                     <p className="text-white-50 md:text-xl">
                         Aplicação construida com React e Styles Component

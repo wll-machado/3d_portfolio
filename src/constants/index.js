@@ -82,15 +82,13 @@ export const expCards = [
   },
   {
     review:
-      "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/images/exp3.png",
+      "Analista de Sistemas - Faculdade Estácio de Sá. Graduação completa em Analise e Desenvolvimento de sistemas, com foco em identificar e resolver problemas em sistemas de informação, utilizando ferramentas e técnicas para coletar, organizar e analisar dados.  .",
+    imgPath: "/images/exp3.jpg",
     logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
+    title: "Web Designer - Freelancer",
+    date: "Março 2019 - julho 2022",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Responsavel por desenvolver e manter sites para clientes.",
     ],
   },
 ];
@@ -101,19 +99,19 @@ export const techStackImgs = [
     imgPath: "/images/logos/react.png",
   },
   {
-    name: "Python Developer",
-    imgPath: "/images/logos/python.svg",
+    name: "Angular Developer",
+    imgPath: "/images/logos/Angular.svg",
   },
   {
-    name: "Backend Developer",
-    imgPath: "/images/logos/node.png",
+    name: "Typescript Developer",
+    imgPath: "/images/logos/Typescript.svg",
   },
   {
-    name: "Interactive Developer",
-    imgPath: "/images/logos/three.png",
+    name: "Tailwind Css",
+    imgPath: "/images/logos/Tailwind.svg",
   },
   {
-    name: "Project Manager",
+    name: "GIT Project Manager",
     imgPath: "/images/logos/git.svg",
   },
 ];
